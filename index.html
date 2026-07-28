@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OK PNEUSERVIS, AUTOSERVIS – Autoservis a pneuservis Praha</title>
+<meta name="description" content="OK PNEUSERVIS, AUTOSERVIS – autoservis a pneuservis v Praze (Hloubětín). Hodnocení 4,8 z 45 recenzí na Googlu. Objednávky na telefonu 777 157 737.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "OK PNEUSERVIS, AUTOSERVIS",
+  "telephone": "+420777157737",
+  "email": "kontakt@autoservisok.cz",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kolbenova 958/27g",
+    "addressLocality": "Praha, Hloubětín",
+    "postalCode": "198 00",
+    "addressCountry": "CZ"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "45"
+  }
+}
+</script>
+<style>
+  :root {
+    --dark: #14181c;
+    --dark2: #1e242b;
+    --accent: #ff7a1a;
+    --text: #1c1c1c;
+    --muted: #5b6672;
+    --light: #f6f7f9;
+    --border: #e4e7eb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    color: var(--text);
+    background: #fff;
+    line-height: 1.55;
+  }
+  h1, h2, h3 {
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+  a { color: inherit; }
+  img { max-width: 100%; display: block; }
+
+  header.topbar {
+    background: var(--dark);
+    color: #fff;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 3px solid var(--accent);
+  }
+  header.topbar .brand {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  header.topbar a.call-btn {
+    background: var(--accent);
+    color: #14181c;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .hero {
+    background: linear-gradient(180deg, var(--dark) 0%, var(--dark2) 100%);
+    color: #fff;
+    padding: 56px 20px 48px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+    line-height: 1.05;
+    margin-bottom: 10px;
+  }
+  .hero .subtitle {
+    font-size: 1.1rem;
+    color: #d3d8de;
+    margin-bottom: 22px;
+  }
+  .hero .rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-size: 1rem;
+    margin-bottom: 26px;
+  }
+  .hero .rating strong {
+    color: var(--accent);
+    font-size: 1.15rem;
+  }
+  .hero .stars {
+    color: var(--accent);
+    letter-spacing: 1px;
+  }
+  .hero .cta-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-block;
+    padding: 13px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: #14181c;
+  }
+  .btn-secondary {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.4);
+  }
+
+  section {
+    padding: 48px 20px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  section h2 {
+    font-size: 1.9rem;
+    margin-bottom: 6px;
+    color: var(--dark);
+  }
+  section .lead {
+    color: var(--muted);
+    margin-bottom: 28px;
+    font-size: 0.98rem;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  @media (min-width: 640px) {
+    .services-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .service-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 20px;
+    background: var(--light);
+  }
+  .service-card h3 {
+    font-size: 1.1rem;
+    color: var(--dark);
+    margin-bottom: 6px;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .service-card p {
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+
+  .hours-box, .map-box {
+    background: var(--light);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px 22px;
+  }
+  .hours-box p, .map-box p {
+    color: var(--muted);
+    font-size: 0.96rem;
+  }
+  .hours-box a, .map-box a {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  @media (min-width: 640px) {
+    .contact-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .contact-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .contact-card .label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .contact-card .value {
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+  .contact-card a { text-decoration: none; color: var(--dark); }
+  .contact-card a:hover { color: var(--accent); }
+
+  footer {
+    background: var(--dark);
+    color: #b8bec5;
+    text-align: center;
+    padding: 26px 20px;
+    font-size: 0.85rem;
+  }
+  footer .demo-note {
+    margin-top: 10px;
+    color: #7d858d;
+    font-size: 0.78rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">OK PNEUSERVIS, AUTOSERVIS</div>
+  <a class="call-btn" href="tel:+420777157737">Zavolat: 777 157 737</a>
+</header>
+
+<section class="hero">
+  <h1>OK PNEUSERVIS, AUTOSERVIS</h1>
+  <p class="subtitle">Autoservis a pneuservis v Praze</p>
+  <div class="rating">
+    <span class="stars">★★★★★</span>
+    <span><strong>4,8</strong> / 5 &nbsp;·&nbsp; 45 recenzí na Googlu</span>
+  </div>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="tel:+420777157737">Zavolat servis</a>
+    <a class="btn btn-secondary" href="#kontakt">Kontakt a adresa</a>
+  </div>
+</section>
+
+<section id="sluzby">
+  <h2>Naše služby</h2>
+  <p class="lead">Přehled běžných úkonů, které v autoservisu a pneuservisu zajišťujeme.</p>
+  <div class="services-grid">
+    <div class="service-card">
+      <h3>Pneuservis</h3>
+      <p>Přezutí a výměna pneumatik, vyvážení kol, opravy defektů, sezónní uskladnění sady.</p>
+    </div>
+    <div class="service-card">
+      <h3>Diagnostika vozidla</h3>
+      <p>Počítačová diagnostika závad a kontrolek, vyčtení chybových kódů.</p>
+    </div>
+    <div class="service-card">
+      <h3>Výměna oleje a filtrů</h3>
+      <p>Motorový olej, olejový, vzduchový a kabinový filtr.</p>
+    </div>
+    <div class="service-card">
+      <h3>Brzdový systém</h3>
+      <p>Kontrola a výměna brzdových destiček, kotoučů a brzdové kapaliny.</p>
+    </div>
+    <div class="service-card">
+      <h3>Podvozek a geometrie</h3>
+      <p>Kontrola podvozkových dílů, seřízení geometrie kol.</p>
+    </div>
+    <div class="service-card">
+      <h3>Klimatizace</h3>
+      <p>Kontrola těsnosti a plnění klimatizace vozidla.</p>
+    </div>
+    <div class="service-card">
+      <h3>Příprava na STK a emise</h3>
+      <p>Prohlídka a odstranění závad před technickou kontrolou.</p>
+    </div>
+    <div class="service-card">
+      <h3>Obecné mechanické opravy</h3>
+      <p>Běžný servis a opravy osobních vozidel dle potřeby.</p>
+    </div>
+  </div>
+</section>
+
+<section id="oteviraci-doba">
+  <h2>Otevírací doba</h2>
+  <div class="hours-box">
+    <p>Aktuální otevírací dobu a dostupnost termínů si prosím ověřte telefonicky na čísle
+      <a href="tel:+420777157737">777 157 737</a> nebo na
+      <a href="https://www.google.com/maps/search/?api=1&query=OK+PNEUSERVIS%2C+AUTOSERVIS%2C+Kolbenova+958%2F27g%2C+198+00+Praha%2C+Hloub%C4%9Bt%C3%ADn" target="_blank" rel="noopener">Google profilu firmy</a>.</p>
+  </div>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakt</h2>
+  <p class="lead">Ozvěte se telefonicky, e-mailem, nebo nás najděte na místě v Praze-Hloubětíně.</p>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <div class="label">Telefon</div>
+      <div class="value"><a href="tel:+420777157737">777 157 737</a></div>
+    </div>
+    <div class="contact-card">
+      <div class="label">E-mail</div>
+      <div class="value"><a href="mailto:kontakt@autoservisok.cz">kontakt@autoservisok.cz</a></div>
+    </div>
+    <div class="contact-card">
+      <div class="label">Adresa</div>
+      <div class="value">Kolbenova 958/27g<br>198 00 Praha, Hloubětín</div>
+    </div>
+    <div class="contact-card">
+      <div class="label">Mapa</div>
+      <div class="value">
+        <a href="https://www.google.com/maps/search/?api=1&query=OK+PNEUSERVIS%2C+AUTOSERVIS%2C+Kolbenova+958%2F27g%2C+198+00+Praha%2C+Hloub%C4%9Bt%C3%ADn" target="_blank" rel="noopener">Zobrazit na Google Maps →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>OK PNEUSERVIS, AUTOSERVIS — Kolbenova 958/27g, 198 00 Praha, Hloubětín</div>
+  <div class="demo-note">Ukázka webu — Vladislav Zachariev</div>
+</footer>
+
+</body>
+</html>
